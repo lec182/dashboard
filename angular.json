@@ -94,8 +94,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/dashboard/"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "659e3f5a-b685-4b2b-8437-a3029fcadcb4"
   }
 }
